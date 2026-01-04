@@ -317,7 +317,7 @@
                               <label class="darkmode-setting-label"><span style="text-align: left;">按钮大小（默认：30）<small id="currentSize">当前：${util.getValue('button_size')}</small></span>
                               <input id="S-Dark-Size" type="range" class="darkmode-setting-range" min="20" max="50" step="2" value="${util.getValue('button_size')}">
                               </label>
-                              <label class="darkmode-setting-label-col">仅在下列网址启用夜间模式 <textarea placeholder="列表中的域名将启用夜间模式，一行一个，例如：example.com" id="S-Dark-Whitelist" class="darkmode-setting-textarea">${whitelistStr}</textarea></label>
+                              <label class="darkmode-setting-label-col">仅在下列网站启用夜间模式 <textarea placeholder="列表中的域名将启用夜间模式，一行一个，例如：example.com" id="S-Dark-Whitelist" class="darkmode-setting-textarea">${whitelistStr}</textarea></label>
                             </div>`;
                     Swal.fire({
                         title: '夜间模式配置',
